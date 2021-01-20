@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background-color: rgba(102, 205, 170, .7);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    padding: 10px 60px 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: #4682B4;
+    cursor: pointer;
+    outline: none;
+}
+
+.display {
+    position: relative;
+}
+
+.input-data {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.fa-copy {
+    position: absolute;
+    top: 6px;
+}
+
+.far {
+    right: 0;
+    right: 10px;
+}
